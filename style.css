@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Sevillana&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+h3{
+    padding: 20px;
+    color: #ca871b;
+    text-align: center;
+}
+
+.inner{
+    border: 2px solid saddlebrown;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #F0ECCF;
+}
+.inner p{
+    padding: 10px;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Sevillana', cursive;
+    font-size: 22px;
+    
+}
+.inner button{
+    border-radius: 5px;
+    margin-top: 45px;
+    width: 80px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #F28482;
+}
+.inner button:hover{
+    background-color: #F6BD60;
+}
